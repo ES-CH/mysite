@@ -23,3 +23,6 @@ Una vez instalado el proyecto ya se puede iniciar usando el siguiente comando:
 ```bash
 python manage.py runserver
 ```
+
+Adicional en la raiz del proyecto se encuentra el archiv sql_postgresql.bak contiene la base de datos proporciona ajustada para un entorno postgresql
+y un archivo base_de_datos.sql con los datos utilizados en el desarrollo
