@@ -22,7 +22,7 @@ Para instalar el proycto y adicional usar la base de datos de prueba usar el sig
 
 ```bash
 
-Get-Content <path_to_dump_file> |./psql -U <postgres_user> -d <database_name
+Get-Content <path_to_dump_file> |./psql -U <postgres_user> -d <database_name>
 ```
 
 ## Iniciar proyecto
