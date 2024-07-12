@@ -16,6 +16,15 @@ python manage.py migrate
 python manage.py createsuperuser`
 ```
 
+## Instalar proyecto con la base de datos de prueba
+
+Para instalar el proycto y adicional usar la base de datos de prueba usar el siguente comando desde la raiz de la base de datos instalada (postgresql):
+
+```bash
+
+Get-Content <path_to_dump_file> |./psql -U <postgres_user> -d <database_name
+```
+
 ## Iniciar proyecto
 
 Una vez instalado el proyecto ya se puede iniciar usando el siguiente comando:
